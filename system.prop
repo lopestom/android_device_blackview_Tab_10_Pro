@@ -1,0 +1,38 @@
+# Default properties
+#ro.build.characteristics=tablet
+ro.mtk_platform=MT6771
+ro.mediatek.platform=MT6771
+ro.hardware.egl=mali
+ro.vendor.mediatek.platform=MT6771
+ro.vendor.mtk_f2fs_enable=0
+ro.vendor.mtk_emmc_support=1
+ro.vendor.mtk_ufs_support=1
+# Microtrust TEE encryption/decryption
+ro.vendor.mtk_microtrust_tee_support=1
+ro.tee_support=1
+ro.mtk_microtrust_tee_support=1
+ro.vendor.mtk_tee_gp_support=1
+ro.hardware.kmsetkey=beanpod
+# Gatekeeper
+ro.hardware.gatekeeper=beanpod
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+# identity
+Build.BRAND=MTK
+# Recovery specific properties
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+# USB MTP
+ro.sys.usb.storage.type=mtp
+ro.treble.enabled=true
+sys.usb.controller=musb-hdrc
+sys.usb.ffs.aio_compat=true
+fbe.metadata.wrappedkey=true
+vendor.gatekeeper.disable_spu=true
+# feat by lopestom
